@@ -3,10 +3,11 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Industries from '@/components/Industries';
 import WorkflowExamples from '@/components/WorkflowExamples';
-import WhyFlowgenix from '@/components/WhyFlowgenix';
+import WhySynaflow from '@/components/WhySynaflow';
 import Testimonials from '@/components/Testimonials';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import WhatsAppChat from '@/components/WhatsAppChat';
 
 const Index = () => {
   return (
@@ -16,10 +17,11 @@ const Index = () => {
       <Services />
       <Industries />
       <WorkflowExamples />
-      <WhyFlowgenix />
+      <WhySynaflow />
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsAppChat />
     </div>
   );
 };

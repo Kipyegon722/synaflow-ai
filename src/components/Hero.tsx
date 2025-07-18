@@ -9,20 +9,19 @@ const Hero = () => {
         {/* Left Content */}
         <div className="animate-fade-in">
           <h1 className="text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Automate Smarter.{' '}
+            We Automate.{' '}
             <span className="hero-gradient bg-clip-text text-transparent">
-              Grow Faster.
+              You Grow.
             </span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            We build AI-powered automations that save time, convert leads, and boost business efficiency.
-            Transform your workflows with cutting-edge AI technology.
+            Synaflow AI helps Kenyan and global businesses scale smarter with powerful AI-driven workflows and automations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <Button size="lg" className="glow-effect group">
-              Get a Free Automation Audit
+              Request Free Automation Plan
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 smooth-transition" />
             </Button>
             <Button variant="outline" size="lg" className="group">

@@ -4,33 +4,33 @@ const Services = () => {
   const services = [
     {
       icon: Target,
-      title: 'Lead Automation',
-      description: 'Capture, qualify, and nurture leads automatically with AI-powered workflows that work 24/7.'
+      title: 'AI-Powered Lead Capture Systems',
+      description: 'Automatically collect, qualify, and follow up with leads via email, WhatsApp, or CRM using advanced LLMs.'
     },
     {
       icon: Users,
-      title: 'Client Onboarding',
-      description: 'Streamline client intake with automated forms, welcome sequences, and document collection.'
+      title: 'Client Onboarding Automation',
+      description: 'Convert inquiries into clients with streamlined onboarding: forms, docs, notifications, and smart routing.'
     },
     {
       icon: Mail,
-      title: 'AI Email Workflows',
-      description: 'Intelligent email sequences that respond, follow up, and convert based on customer behavior.'
-    },
-    {
-      icon: Database,
-      title: 'CRM Sync',
-      description: 'Keep all your tools in perfect sync with bi-directional data flows and real-time updates.'
+      title: 'Smart Email & Messaging Workflows',
+      description: 'Auto-generate personalized replies, follow-ups, and drip campaigns using GPT-4, Claude, and Gemini.'
     },
     {
       icon: Bot,
-      title: 'AI Chatbots',
-      description: 'Deploy smart chatbots that handle customer inquiries and qualify leads automatically.'
+      title: 'Social Media Content Automation',
+      description: 'Use AI to generate and post captions, hashtags, visuals, and schedule content across platforms.'
+    },
+    {
+      icon: Database,
+      title: 'Sales Process Optimization',
+      description: 'Automate task assignments, reminders, and updates for your sales pipeline with intelligent workflows.'
     },
     {
       icon: Zap,
-      title: 'Custom Automations',
-      description: 'Bespoke automation solutions tailored to your unique business processes and requirements.'
+      title: 'Custom Workflow Integrations',
+      description: 'We analyze your business and create bespoke automation blueprints that save time and money.'
     }
   ];
 
@@ -42,8 +42,8 @@ const Services = () => {
             What We Do
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We specialize in building intelligent automation systems that eliminate repetitive tasks 
-            and accelerate your business growth.
+            Synaflow AI builds intelligent, reliable, and tailored automation systems for businesses using 
+            state-of-the-art LLMs including GPT-4 Turbo, Claude, Gemini, Mistral, and open-source models like LLaMA.
           </p>
         </div>
 

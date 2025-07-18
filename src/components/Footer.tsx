@@ -16,9 +16,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' },
-    { name: 'GitHub', icon: Github, href: '#' }
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/victor-kipyegon/' },
+    { name: 'X (Twitter)', icon: Twitter, href: 'https://www.x.com/victor_k_k_' },
+    { name: 'GitHub', icon: Github, href: 'https://github.com/Kipyegon722' }
   ];
 
   return (
@@ -31,11 +31,10 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
                 <Zap className="w-5 h-5 text-background" />
               </div>
-              <span className="text-xl font-bold text-foreground">Flowgenix AI</span>
+              <span className="text-xl font-bold text-foreground">Synaflow AI</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Kenya's leading AI automation agency. We help businesses save time and grow revenue 
-              through intelligent workflow automation.
+              AI-driven automations for Kenyan and global businesses. Scale smarter with intelligent workflows.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -92,24 +91,24 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
                 <a
-                  href="mailto:hello@flowgenix.ai"
+                  href="mailto:kipyegon722@gmail.com"
                   className="text-muted-foreground hover:text-primary smooth-transition"
                 >
-                  hello@flowgenix.ai
+                  kipyegon722@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
                 <a
-                  href="tel:+254700000000"
+                  href="tel:0758663405"
                   className="text-muted-foreground hover:text-primary smooth-transition"
                 >
-                  +254 700 000 000
+                  0758663405
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span className="text-muted-foreground">Nairobi, Kenya</span>
+                <span className="text-muted-foreground">18628-00100, Nairobi, Kenya</span>
               </div>
             </div>
           </div>
@@ -117,14 +116,14 @@ const Footer = () => {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Flowgenix AI. All rights reserved.
+            © 2024 Synaflow AI. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-muted-foreground hover:text-primary text-sm smooth-transition">
+            <a href="/privacy" className="text-muted-foreground hover:text-primary text-sm smooth-transition">
               Privacy Policy
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary text-sm smooth-transition">
-              Terms of Service
+            <a href="/terms" className="text-muted-foreground hover:text-primary text-sm smooth-transition">
+              Terms & Conditions
             </a>
           </div>
         </div>

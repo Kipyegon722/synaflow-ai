@@ -6,19 +6,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@flowgenix.ai',
-      link: 'mailto:hello@flowgenix.ai'
+      value: 'kipyegon722@gmail.com',
+      link: 'mailto:kipyegon722@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+254 700 000 000',
-      link: 'tel:+254700000000'
+      value: '0758663405',
+      link: 'tel:0758663405'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Nairobi, Kenya',
+      value: '18628-00100, Nairobi, Kenya',
       link: null
     },
     {

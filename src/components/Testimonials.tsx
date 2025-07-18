@@ -3,28 +3,28 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      company: 'Real Estate Pro',
-      role: 'Real Estate Agent',
-      content: 'Flowgenix AI automated our lead qualification process. We now respond to inquiries in minutes instead of hours, and our conversion rate increased by 40%.',
+      name: 'Faith Wanjiku',
+      company: 'Real Estate Consultant',
+      role: 'Nairobi',
+      content: 'I used to manually respond to all my leads. Now I have a smart WhatsApp follow-up bot and a CRM I didn\'t even have before. Game changer!',
       rating: 5,
-      result: '40% higher conversion'
+      result: '50% faster responses'
     },
     {
-      name: 'Michael Chen',
-      company: 'Growth Coaching',
-      role: 'Business Coach',
-      content: 'The client onboarding automation saves me 10 hours per week. Now I can focus on what I do best - coaching clients instead of paperwork.',
+      name: 'Brian Kiptoo',
+      company: 'Online Business Coach',
+      role: 'Eldoret',
+      content: 'Synaflow AI automated my customer onboarding process in just 3 days. It\'s like having a digital assistant I don\'t pay monthly.',
       rating: 5,
-      result: '10 hours saved weekly'
+      result: '3-day setup'
     },
     {
-      name: 'Lisa Martinez',
-      company: 'Digital Marketing Agency',
-      role: 'Agency Owner',
-      content: 'Our email workflows now run on autopilot. Client communications are consistent, professional, and we never miss a follow-up.',
+      name: 'Winnie Muthoni',
+      company: 'Legal Services',
+      role: 'Mombasa',
+      content: 'The AI-generated emails are better than what I\'d write myself. Very impressed with the quality and personalization.',
       rating: 5,
-      result: '100% follow-up rate'
+      result: 'Better email quality'
     }
   ];
 
