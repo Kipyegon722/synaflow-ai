@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# Synaflow AI - Intelligent Workflow Automation Website
 
-## Project info
+> **By Victor Kipyegon**  
+> ✉️ Email: kipyegon722@gmail.com  
+> 🔗 GitHub: [Kipyegon722](https://github.com/Kipyegon722)  
+> 🔗 LinkedIn: [Victor Kipyegon](https://www.linkedin.com/in/victor-kipyegon/)  
+> 🔗 X (Twitter): [@victor_k_k_](https://www.x.com/victor_k_k_)
 
-**URL**: https://lovable.dev/projects/6ccd7bcf-1e5e-44a8-bcb3-09c254bfdc83
+---
 
-## How can I edit this code?
+## 📌 Overview
 
-There are several ways of editing your application.
+**Synaflow AI** is a Nairobi-based intelligent automation agency focused on building custom **AI-powered business systems**. The website is built using modern web technologies including **TypeScript**, **React**, and **TailwindCSS via ShadCN UI**.
 
-**Use Lovable**
+The project’s goal is to communicate clearly what Synaflow AI does:
+- AI workflow solutions
+- Automation systems for businesses
+- Use of cutting-edge LLMs like GPT-4, Claude, Gemini, etc.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6ccd7bcf-1e5e-44a8-bcb3-09c254bfdc83) and start prompting.
+The website is fully responsive, dark-themed, professional, and tailored to clients seeking powerful, no-code automation for growth.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Technology        | Description                                      |
+|-------------------|--------------------------------------------------|
+| **React**         | Front-end JavaScript library for UI              |
+| **TypeScript**    | Strongly typed superset of JavaScript            |
+| **Tailwind CSS**  | Utility-first CSS framework                      |
+| **ShadCN/UI**     | Component library built on top of Radix + Tailwind |
+| **Vite**          | Fast dev environment (or Next.js if you used it) |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎯 Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- ⚡ Dark-themed, modern UI
+- 📞 WhatsApp floating chat button (linked to your number)
+- 📍 Kenyan location and contact details
+- 📄 Privacy Policy & Terms pages
+- 🔗 Social media integration: GitHub, LinkedIn, X
+- 📥 Lead capture form
+- 🧠 Explanation of services & AI usage
+- 📌 Testimonials with Kenyan names
+- 📱 Mobile-first and fully responsive
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧠 Services Listed on Website
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+The website reflects the core agency offerings:
 
-**Edit a file directly in GitHub**
+- **Lead capture automation** using AI + smart forms
+- **Client onboarding flows**
+- **Email/messaging workflow automation**
+- **Social media content generation**
+- **Sales process automation**
+- **Custom AI integrations**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+All using large language models (LLMs) like:
+- OpenAI GPT-4
+- Claude by Anthropic
+- Gemini by Google
+- Cohere, Mistral, LLaMA, and others
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧩 Folder Structure
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6ccd7bcf-1e5e-44a8-bcb3-09c254bfdc83) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # ShadCN-based UI components
+│   ├── pages/            # Pages like Home, Contact, Legal
+│   ├── sections/         # Hero, Services, Testimonials, Footer etc.
+│   ├── styles/           # Tailwind config + custom styles
+│   └── utils/            # Utility functions (LLM list, contact logic)
+├── tailwind.config.ts
+├── tsconfig.json
+├── package.json
+└── README.md             # You're here
