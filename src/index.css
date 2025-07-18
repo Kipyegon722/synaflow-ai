@@ -8,35 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark theme primary colors */
+    --background: 222 47% 3%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 47% 4%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 47% 4%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* AI-focused primary brand colors */
+    --primary: 212 100% 60%;
+    --primary-foreground: 222 47% 3%;
+    --primary-glow: 212 100% 70%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 14% 8%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 8%;
+    --muted-foreground: 215 20% 60%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 212 100% 15%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 14% 15%;
+    --input: 220 14% 8%;
+    --ring: 212 100% 60%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom design tokens for AI theme */
+    --gradient-primary: linear-gradient(135deg, hsl(212 100% 60%), hsl(260 100% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 14% 8%), hsl(222 47% 4%));
+    --shadow-glow: 0 0 30px hsl(212 100% 60% / 0.3);
+    --shadow-elegant: 0 10px 40px -15px hsl(212 100% 60% / 0.4);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +110,48 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  /* Hero section components */
+  .hero-gradient {
+    background: var(--gradient-primary);
+  }
+  
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .elegant-shadow {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .smooth-transition {
+    transition: var(--transition-smooth);
+  }
+  
+  /* Workflow animation styles */
+  .workflow-node {
+    @apply bg-secondary border border-border rounded-lg p-4 smooth-transition;
+  }
+  
+  .workflow-node:hover {
+    @apply border-primary/50 elegant-shadow;
+    transform: translateY(-2px);
+  }
+  
+  .workflow-line {
+    @apply h-px bg-gradient-to-r from-primary to-primary-glow;
+  }
+  
+  /* Form styles */
+  .form-input {
+    @apply bg-input border-border text-foreground placeholder:text-muted-foreground;
+  }
+  
+  .form-input:focus {
+    @apply ring-2 ring-primary border-primary;
   }
 }
